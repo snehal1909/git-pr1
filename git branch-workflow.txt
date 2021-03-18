@@ -1,0 +1,30 @@
+git branch workflow:i.e isolated branch from main
+
+scenario1-CI case
+
+->create the pull request by s2
+->i.e discuss around the branch before integrated with main
+->s1 craetes new branch
+->git branch test1
+->git checkout test1
+->added some files 
+->vi added.txt
+->git add .
+->git commit -m "aadded none more file in test1"
+->git push origin test1
+
+go to central repo
+
+new branch has been created
+
+->if s1wants to know s2 that added some files in test1
+->pull request
+->add comment
+->create pull request
+->if any one contributing in central repo you can add that person too
+->can add mail 
+->and back and forth dicussion ,when team has satisfied on test1 branch
+->merge it to main branch..i.e.prod
+
+
+

@@ -1,0 +1,20 @@
+->git conflict
+
+
+->s1 and s2 made the chnages in same file
+->hence git conflict
+->s2 tries to solve conflict by using command 
+->git pull --rebase origin main
+-> git mergetool
+->s2 modified the containt either keepboth the coomment or delete any one
+-> git rebase --continue
+->added messege of git conflict has been resolved
+-> git push origin main
+->in centralised repo we can see the both the comment
+
+
+and this centralised workflow i.e.only on master branch
+
+
+
+
